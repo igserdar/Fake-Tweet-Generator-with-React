@@ -377,6 +377,97 @@
     }
   }
 }
+@media only screen and (max-width: 370px) {
+  .tweet-container {
+    padding: 0 10px;
+    margin: 10px;
+    position: relative;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0px;
+    box-shadow: rgb(101 119 134 / 20%) 0px 0px 15px, rgb(101 119 134 / 15%) 0px 0px 3px 1px;
+    background: var(--bg-color);
+
+
+  }
+
+  .tweet {
+    min-width: 300px;
+    max-width: 320px;
+    margin: 25px auto;
+    padding: 0 16px;
+    background: var(--bg-color);
+    &-author {
+      height: 48px;
+      margin-top: 12px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 4px;
+      font-size: 15px;
+      img {
+        width: 48px;
+        height: 48px;
+        margin-right: 12px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .name {
+        color: var(--primary-text-color);
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        height: 19px;
+        span {
+          margin-right: 3px;
+        }
+      }
+      .username {
+        color: var(--secondary-text-color);
+      }
+    }
+    &-content {
+      max-width: 341px;
+      padding: 12px 0;
+      text {
+        font-size: 23px;
+        line-height: 28px;
+        color: var(--primary-text-color);
+        overflow: hidden;
+        span {
+          color: #1da1f2;
+        }
+      }
+    }
+    &-stats {
+      height: 53px;
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+      color: var(--secondary-text-color);
+      border-top: 1px solid var(--border-color);
+      b {
+        color: var(--primary-text-color);
+      }
+      span:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+    &-actions {
+      height: 48px;
+      display: flex;
+      border-top: 1px solid var(--border-color);
+      color: #fff;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+}
+
+
 .toggle-wrapper {
   margin: 0.5em auto;
 }
