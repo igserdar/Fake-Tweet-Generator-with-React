@@ -14,7 +14,8 @@ const tr = {
   select_theme:"Tema Seç",
   title:"Sahte Tweet Oluşturucu",
   yes:"Evet",
-  no:"Hayır"
+  no:"Hayır",
+  get_data:"Kullanıcıdan Veri Al"
 
 
 };
@@ -35,7 +36,8 @@ const en = {
   select_theme:"Select Theme",
   title:"Fake Tweet Generator",
   yes:"Yes",
-  no:"No"
+  no:"No",
+  get_data:"Get Data From User"
 };
 
 const languages = {
