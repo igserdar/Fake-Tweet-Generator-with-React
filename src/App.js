@@ -156,7 +156,7 @@ export default function App() {
                 />
                 <div className="get-info">
 <Row>
-    <label>Get Data From User</label>
+    <label>{ langText?.get_data }</label>
 </Row>
                 <Row>
                     <input
