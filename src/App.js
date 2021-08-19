@@ -317,10 +317,10 @@ export default function App() {
 
                 </div>
                 <div className="footer-bottom">
-                        <Row>
+                        <Row style={{margin:"0px"}}>
                             <div className="col-lg-12 text-center"><span> Made with <i
                                 className="fa fa-heart m-lr5 text-red heart"></i> by <a href="https://www.serdarbudak.com.tr"> Serdar Budak </a></span>
-                        
+
 
                             </div>
                         </Row>
